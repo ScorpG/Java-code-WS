@@ -12,6 +12,12 @@ public class IBIOQ21 {
 		else if (n>60){
 			
 			IBIO.output("The number is higher than 60");
+		} 
+		else if (50 < n) {
+			
+			if ( n < 60){ 
+			IBIO.output("The number is inbetween 50 and 60");
+		}
 		}
 	}
 }

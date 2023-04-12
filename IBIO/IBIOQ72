@@ -1,0 +1,13 @@
+public static void main(String[] args) {
+    double xx = 1;
+    for (int i = 0; i < 10; i++) {
+        xx = xx * 3.732;
+        String yy = "" + xx;
+        int decimalIndex = yy.indexOf('.');
+
+        for (int j = 0; j < decimalIndex; j++) {
+            System.out.print(" ");
+        }
+        System.out.println(xx);
+    }
+}
